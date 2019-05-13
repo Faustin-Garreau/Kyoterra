@@ -1,0 +1,933 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#banniere {
+    background-image: url('../img/Photo_OK.png');
+    height: 537px;
+    background-size: cover;
+}
+
+#barre {
+    height: 85px;
+}
+
+#menu1 {
+    float: right;
+    width: 540px;
+    height: 12px;
+    color: #1d1b1e;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 34px;
+    font-family: "Helvetica Neue - Thin";
+}
+
+#placement_image {
+    width: 227px;
+    height: 72px;
+    margin-top: 4px;
+}
+
+#espace {
+    margin-right: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+#espace:hover {
+    border-bottom:3px solid green;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(../helmet/helmet-1.0/Helmet-Regular.ttf) format("truetype");
+}
+
+#overlay {
+    width: 1170px;
+    height: 537px;
+    background-image: url(../img/calcule.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.titre_banniere {
+    text-align: center;
+    color: white;
+    margin-top: 210px;
+    font-family: Kravitz;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 51px;
+    font-family: "Kravitz"
+}
+
+.fondations_color {
+    color: #92ab77;
+}
+
+@font-face {
+    font-family: "Kravitz";
+    src: url(../kravitz/KRAVITZ_.TTF) format("truetype");
+}
+
+@font-face {
+    font-family: "Helvetica Neue - Thin";
+    src: url('../helvetica/Helvetica Neue Thin/HelveticaNeue-Thin.otf') format("truetype");
+}
+
+.paragraphes_banniere {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Helvetica Neue";
+    line-height: 29px;
+}
+
+#agence {
+    height: 537px;
+}
+
+h2 {
+    color: #1d1b1e;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+    font-weight: 300;
+    font-family: "Helvetica Neue - Thin";
+    font-weight: 600;
+    margin-top: 65px;
+}
+
+#gras {
+    font-family: "Helvetica Neue";
+    font-weight: 600;
+}
+
+#taille_image {
+    width: 399px;
+    height: 255px;
+    margin-top: 50px;
+}
+
+#text_fondation {
+    width: 560px;
+    height: 129px;
+    margin-left: 614px;
+    margin-top: -120px;
+}
+
+.text_fondation {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#accompagne {
+    height: 503px;
+    background-color: rgba(128, 128, 128, 0.100);
+}
+
+#accompagne_titre {
+    color: #1d1b1e;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+}
+
+#kyo_titre {
+    color: #92ab77;
+    font-family: Kravitz;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 62px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bloc {
+    width: 312px;
+    height: 276px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.bloc3 {
+    width: 312px;
+    height: 276px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+#bloc_titre {
+    color: black;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+#bloc_titre2 {
+    color: black;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+#bloc_titre3 {
+    color: black;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+hr {
+    width: 41px;
+    height: 3px;
+    background-color: #92ab77;
+    margin-top: -30px;
+}
+
+#text_bloc {
+    color: black;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -17px;
+}
+
+#text_bloc2 {
+    color: black;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -17px;
+}
+
+#text_bloc3 {
+    color: black;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -17px;
+}
+
+.bloc:hover {
+    background-color: #92ab77;
+
+}
+
+.bloc:hover #text_bloc {
+    color: white;
+}
+
+.bloc:hover #bloc_titre {
+    color: white;
+}
+
+.bloc:hover #text_bloc2 {
+    color: white;
+}
+
+.bloc:hover #bloc_titre2 {
+    color: white;
+}
+
+.bloc:hover #text_bloc3 {
+    color: white;
+}
+
+.bloc:hover #bloc_titre3 {
+    color: white;
+}
+
+#proverbe {
+    height: 444px;
+    background-image: url(../img/savane.png);
+}
+
+#back_proverbe {
+    width: 941px;
+    height: 123px;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-top: 170px;
+}
+
+#back_image {
+    width: 41px;
+    height: 40px;
+    background-color: #ffffff;
+    opacity: 0.1;
+    margin-top: -160px;
+}
+
+#fondatrice {
+    height: 293px;
+    margin-top: 59px;
+}
+
+.titre_fondatrice {
+    color: #181514;
+    font-family: "Helvetica Neue";
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.text_fondatrice {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#nom_fondatrice {
+    color: #8ea97a;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    position: absolute;
+    top: 1px;
+}
+
+#fond {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+#année {
+    height: 335px;
+    background-color: rgba(128, 128, 128, 0.100);
+}
+
+.bloc1 {
+    width: 184px;
+    height: 158px;
+    background-color: #ffffff;
+    opacity: 0.9;
+    margin-left: 145px;
+    margin-top: 15px;
+}
+
+#titre_bloc1 {
+    width: 180px;
+    height: 36px;
+    color: #92ac7f;
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 63.47px;
+}
+
+#text_bloc1 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28.56px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloc1:hover {
+    background-color: #92ab77;
+}
+
+.bloc1:hover #titre_bloc1 {
+    color: white;
+}
+
+
+#titre_bloc2 {
+    width: 180px;
+    height: 36px;
+    color: #92ac7f;
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 63.47px;
+}
+
+#text_bloc5 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28.56px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloc1:hover {
+    background-color: #92ab77;
+}
+
+.bloc1:hover #titre_bloc2 {
+    color: white;
+}
+
+
+#titre_bloc3 {
+    width: 180px;
+    height: 36px;
+    color: #92ac7f;
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 63.47px;
+}
+
+#text_bloc6 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28.56px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bloc1:hover {
+    background-color: #92ab77;
+}
+
+.bloc1:hover #titre_bloc3 {
+    color: white;
+}
+
+#liste {
+    height: 337px;
+}
+
+#listes_titre {
+    color: #92ab77;
+    font-family: Kravitz;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 37px;
+}
+
+#listes_text {
+    color: #1d1b1e;
+    font-family: "Helvetica Neue";
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.listes_bloc {
+    width: 336px;
+    height: 138px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+    margin-top: 41px;
+    margin-left: 140px;
+}
+
+#listes_bloctitre {
+    color: #92ab77;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+#listes_points {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#listes_bloctitre2 {
+    color: #92ab77;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+#listes_points2 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#icon_bloc {
+    height: 650px;
+    background-color: rgba(128, 128, 128, 0.108);
+}
+
+#icon_titre {
+    color: #92ab77;
+    font-family: Kravitz;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#icon_text {
+    color: #1d1b1e;
+    font-family: "Helvetica Neue";
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+}
+
+#photo1_titre {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#photo1_text {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#titre_bloc {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#icon_titre1 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text1 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre2 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text2 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre3 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text3 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre4 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text4 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre5 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text5 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre6 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text6 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre7 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text7 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#icon_titre8 {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 39.99px;
+}
+
+#icon_text8 {
+    color: #605a64;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 23.99px;
+}
+
+#photo_slide {
+    height: 337px;
+}
+
+.photo_intro {
+    color: #8ea97a;
+    font-family: Kravitz;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 61.99px;
+    text-align: center;
+}
+
+#photo_titre {
+    color: #181514;
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44.99px;
+    text-align: center;
+}
+
+#deplacement_bloc {
+    height: 339px;
+    background-color: rgba(128, 128, 128, 0.108);
+}
+
+#deplacement_titre {
+    color: #1d1b1e;
+    font-family: "Helvetica Neue";
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 44.99px;
+    margin-top: 134px;
+}
+
+#minibloc_deplacement {
+    width: 527px;
+    height: 246px;
+    background-color: #8ea97a;
+    margin-top: -300px;
+}
+
+#minibloc_titre {
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#minibloc_text {
+    width: 420px;
+    height: 59px;
+    color: #ffffff;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#minicon {
+    margin-top: 20px;
+}
+
+#maj {
+    margin-top: -65px;
+}
+
+#mini_titre {
+    color: #ffffff;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 61.99px;
+    text-transform: uppercase;
+    margin-top: -70px;
+}
+
+#mini_text {
+    color: #ffffff;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 61.99px;
+    margin-top: -55px;
+}
+
+#renseignement {
+    height: 494px;
+}
+
+#reseignement_titre {
+    color: #181514;
+    font-family: "Helvetica Neue";
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 79px;
+}
+
+#kyo_renseignement {
+    color: #92ab77;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+#blocform {
+    width: 586px;
+    height: 459px;
+    margin-top: -400px;
+}
+
+#text_blocform {
+    color: #181514;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 40px;
+}
+
+#form_button {
+    background: #181514;
+    border-radius: 20px;
+    width: 110px;
+    height: 44px;
+}
+
+#form_link {
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#idée {
+    height: 444px;
+    background-image: url(./../arbre.png);
+}
+
+#idée_img {
+    border: 10px solid #e6e6e6;
+    opacity: 0.7;
+    margin-top: 130px;
+}
+
+#idée_img2 {
+    background-color: #f5f5f5;
+    opacity: 0.7;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 157px;
+}
+
+#idée_text {
+    position: absolute;
+    color: #262626;
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-left: 260px;
+    margin-top: -155px;
+}
+
+#nousuivre {
+    height: 500px;
+}
+
+#suivre_text {
+    color: #8ea97a;
+    font-family: Kravitz;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 61.99px;
+    text-align: center;
+}
+
+#suivre_titre {
+    color: #181514;
+    font-family: "Helvetica Neue";
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+}
+
+#taille_icon {
+    border: 1px solid #7c7c7c;
+    border-radius: 20px;
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#taille_icon:hover {
+    background-color: #92ab77;
+}
+
+#taille_icon:hover > i {
+    color: #fff;
+}
+
+#footer {
+    height: 166px;
+    background-color: #151b18;
+}
+
+#eden {
+    width: 69px;
+    height: 31px;
+}
+
+#eden_text {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../open-sans/OpenSans-Regular.ttf) format("truetype");
+}
+
+#bloc_eden {
+    width: 450px;
+    height: 60px;
+}
+
+#eden_mentions {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Helvetica Neue - Thin";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: -60px;
+}
+#ref {
+ color: #92ab77;
+ font-family: Kravitz;
+ font-size: 14px;
+ font-weight: bold;
+ line-height: 62px;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+
